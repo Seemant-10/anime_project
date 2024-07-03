@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(image/c.jpeg);
+    background-size: cover;
+}
+
+nav {
+    background-color: black;
+    border: 0.3vw groove gold;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding-top: 0.5vw;
+}
+
+li {
+    padding-top: 1vw;
+}
+
+nav a:link, a:visited {
+    color: gold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.logo img {
+    height: 5vh;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.con{
+    border: 0.3vw ridge gold;
+    margin-top: 3vh;
+    width:65vw ;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    margin-bottom: 3vh;
+}
+
+.con h2{
+    color: gold;
+}
+
+input{
+    border: 2px solid gold;
+    height:3.5vh;
+}
+
+textarea{
+    border: 2px solid gold;
+}
+
+.content{
+    border: 0.3vw solid rgba(255, 255, 255, 0.192);
+    padding: 2vw;
+    margin: 1vw;
+}
+
+form{
+    display: grid;
+}
+
+form button{
+    background-color: gold;
+    font-weight: bold;
+    font-size:2.3vw;
+    cursor:pointer;
+}
+
+.follow{
+    border: 0.3vw ridge gold;
+    /* width:fit-content; */
+    margin-top: 3vh;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    margin-bottom: 3vh;
+    height: fit-content;
+}
+
+.follow h3{
+    margin-top: 0.3vw;
+    margin-left: 1vw;
+}
+
+.scmedia{
+    border: 0.3vw solid rgba(255, 255, 255, 0.192);
+    padding: 2vw;
+    margin: 1vw;
+    font-size: 3vw;
+}
+
+.scmedia a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.scmedia a:visited{
+    color: rgb(26, 130, 242);
+    text-decoration: none;
+}
+
+.scmedia a:hover{
+    color: orangered;
+    text-decoration: none;
+}
