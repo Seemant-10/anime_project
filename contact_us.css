@@ -4,6 +4,7 @@
 }
 
 body {
+    height: 100%;
     background-image: url(image/c.jpeg);
     background-size: cover;
 }
@@ -47,7 +48,7 @@ nav a:hover {
 .con{
     border: 0.3vw ridge gold;
     margin-top: 3vh;
-    width:65vw ;
+    width: 65vw;
     font-family: sans-serif;
     background-color: black;
     color: white;
@@ -60,11 +61,21 @@ nav a:hover {
 
 input{
     border: 2px solid gold;
-    height:3.5vh;
+    height: 3.5vh;
+    outline: none;
+    border-radius: 7px;
+    padding: 2px;
+}
+
+.age::-webkit-outer-spin-button,
+.age::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 textarea{
     border: 2px solid gold;
+    border-radius: 7px;
 }
 
 .content{
@@ -80,13 +91,13 @@ form{
 form button{
     background-color: gold;
     font-weight: bold;
-    font-size:2.3vw;
-    cursor:pointer;
+    font-size: 3.3vw;
+    cursor: pointer;
+    border-radius: 7px;
 }
 
 .follow{
     border: 0.3vw ridge gold;
-    /* width:fit-content; */
     margin-top: 3vh;
     font-family: sans-serif;
     background-color: black;
@@ -118,6 +129,20 @@ form button{
 }
 
 .scmedia a:hover{
-    color: orangered;
+    color: rgb(246, 112, 63);
     text-decoration: none;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+#icon{
+    transition: transform 0.2s ease;
+    font-size: 3.5vw;
+}
+
+#icon:hover{
+    transform: scale(1.1);
+}
+.scmedia a {
+    display: inline-block;
 }
