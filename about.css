@@ -4,6 +4,7 @@
 }
 
 body {
+   height: 100vh;
    background-image: url(image/scenery1.jpg); 
    background-size: cover;
 }
